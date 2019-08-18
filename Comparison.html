@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8 content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Latitude-Analysis-Comparison-Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./Latitude Analysis.html">Latitude Analysis Dashboard</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./Latitude Analysis.html">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">  
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plot<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./Temperature.html">Temperature</a></li>
+            <li><a href="./Humidty.html">Humidity</a></li>
+            <li><a href="./Wind Speed.html">Wind Speed</a></li>
+            <li><a href="./Cloudiness.html">Cloudiness</a></li>
+
+          </ul>
+       </li>
+        <li><a href="comparison.html">Comparison</a></li>
+         <li><a href="Cities Data.html">Data</a></li>
+        
+        </ul>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+    <!-- Summary header and paragraph text -->
+
+    <div class="container">
+      <h1 class="text-center">Graph Comparison</h1>
+        <div class="row">
+  
+      <!--These col-md-3 columns go half wide when on a small screen-->
+
+          <div class="col-md-6">
+              <div class="col-post">
+                <div class="thumbnail">
+                  <div class="caption"></div>
+                    <h3 class="text-center">Latitude vs. Temperature</h3>
+                  <img src="./Images/Temp.png" alt="Temperature">
+                  <br>
+                </div>
+              </div>
+          </div>
+
+
+          <div class="col-md-6">
+              <div class="col-post">
+                <div class="thumbnail">
+                  <div class="caption"></div>
+                    <h3 class="text-center">Latitude vs. Humidity</h3>
+                  <img src="./Images/humidity.png" alt="Humidity">
+                  <br>
+                </div>
+              </div>
+          </div>
+                        
+              <div class="col-md-6">
+                <div class="thumbnail">
+                <h3 class="text-center">Latitude vs. Cloudiness</h3>
+                  <img src="./Images/Clouds.png" alt="Cloudiness">
+                  <div class="caption">
+                    <br>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="thumbnail">
+                  <h3 class="text-center">Latitude vs. Wind Speed</h3>
+                  <img src="./Images/Wind.png" alt="Wind Speed">
+                  <div class="caption">
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>      
+    </div>
+
+</body>
+
+</html>
+
